@@ -714,23 +714,30 @@ margin-right: 120px;
      color: #5a213e;
      font-size: 18px;
 }
-.aboutus p{
+.aboutus {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0px;
+}
+
+
+
+
+.intro {
     margin-top: 30px;
-    text-align: center;
+   
     font-family: "Barlow Semi Condensed", sans-serif;
     color: #5a213e;
     font-size: 20px;
-    margin-top: 0;
 }
-.aboutus h2{
+#aboutme {
     color: #310923;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 
-#imgg {
-    align-items: center;
-}
+
 .boxtext2{
      color: grey;
 }
